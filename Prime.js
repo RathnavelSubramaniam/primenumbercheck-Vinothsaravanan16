@@ -9,16 +9,16 @@ const n = parseint (process. argv [2]);
 function isPrime(num) {
     if (num <= 1) return false;
     for(let i=2;i<num; i++){ 
-        if (num % i ==0) {
+        if(num % i===0){
             return false;
         }
     }
     return true;
 }
 if (is prime(n) {
-    console. log("prime number");
-}else  {
-    console .log("prime number");
-    
+    console.log("prime number");
+} else {
+    console.log("prime number");
+}
 
 module.exports = isPrime;
